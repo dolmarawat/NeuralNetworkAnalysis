@@ -29,13 +29,12 @@ Stability	Visual inspection of lift curve smoothness (binary score)	25%	Must be 
 Composite Score = 0.45 × Accuracy + 0.30 × Lift + 0.25 × Stability
 
 ## Models Compared
-Model Label	Optimizer	LR Strategy	Batch	Epochs	Accuracy	Lift	Stability	Composite Score
-ADAM_32_TS	Adam	Time-based decay	32	40	0.713	0.333	❌	0.321
-ADAM_32_SD	Adam	Step Decay	32	40	0.740	0.476	✅	0.345 ⭐️
-ADAM_32_ES	Adam	Exponential Decay	32	40	0.766	0.476	❌	0.345
-ADAM_32_RP	Adam	ReduceLROnPlateau	32	40	0.773	0.524	❌	0.348
-ADAM_64_01	Adam	Static (0.01)	64	40	0.760	0.429	✅	0.338
-SGD_32_RP	SGD	ReduceLROnPlateau	32	40	0.760	0.429	✅	0.342
+| Model        | Accuracy | Lift   | Stability | Score |
+|--------------|----------|--------|-----------|-------|
+| ADAM_32_SD   | 0.740    | 0.476  | ✅         | ⭐️ Best |
+| ADAM_32_RP   | 0.773    | 0.524  | ❌         |       |
+| ADAM_64_01   | 0.760    | 0.429  | ✅         |       |
+| SGD_32_RP    | 0.760    | 0.429  | ✅         |       |
 
 ## Best Model: ADAM_32_SD
 Accuracy: 0.740
