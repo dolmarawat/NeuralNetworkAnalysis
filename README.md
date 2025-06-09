@@ -4,7 +4,7 @@
 
 ### Modeling Creditworthiness Using German Credit Data
 This project builds and evaluates multiple neural network architectures to predict loan default risk using the German Credit dataset. It focuses not just on prediction accuracy, but also on model reliability through stability, and business impact through lift—a rare but crucial metric in credit modeling and financial applications.
-💡 This work reflects the design of deployable, risk-sensitive machine learning systems—prioritizing interpretability and robustness over raw accuracy.
+This work reflects the design of deployable, risk-sensitive machine learning systems—prioritizing interpretability and robustness over raw accuracy.
 
 ## Objective
 The goal is to design, train, and evaluate a range of neural networks with varying:
