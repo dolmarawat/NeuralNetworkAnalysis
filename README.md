@@ -1,4 +1,4 @@
-# NeuralNetworkAnalysis
+# Neural Network Analysis
 
 ## Neural Network-Based Credit Risk Classification
 
